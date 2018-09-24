@@ -8,9 +8,9 @@ Até o momento está com todas as partes de Front-end prontas, faltando apenas o
   - ╔Imagens
   - ╠php
   - ╠styles
-  - ║   ╠css_cadastroPage.css
-  - ║   ╠css_index.css
-  - ║   ╚css_loginPage.css
+  - ║     ╠css_cadastroPage.css
+  - ║     ╠css_index.css
+  - ║     ╚css_loginPage.css
   - ╠cadastroPage.html
   - ╠loginPage.html
   - ╚index.html
