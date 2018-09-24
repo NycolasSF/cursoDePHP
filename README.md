@@ -19,4 +19,4 @@ Até o momento está com todas as partes de Front-end prontas, faltando apenas o
 
 Algumas partes do codigo temos que separar para serem segradas por php ou javascript.
 
-![Alt Text](http://prntscr.com/kxwfep)
+![Codigo à separar](Imagens/exemplo_github.png)
