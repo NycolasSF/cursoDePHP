@@ -5,15 +5,15 @@ Até o momento está com todas as partes de Front-end prontas, faltando apenas o
 
 ## Estutura Das Pastas:
 
-  -╔Imagens
-  -╠php
-  -╠styles
-  -║   ╠css_cadastroPage.css
-  -║   ╠css_index.css
-  -║   ╚css_loginPage.css
-  -╠cadastroPage.html
-  -╠loginPage.html
-  -╚index.html
+  - ╔Imagens
+  - ╠php
+  - ╠styles
+  - ║   ╠css_cadastroPage.css
+  - ║   ╠css_index.css
+  - ║   ╚css_loginPage.css
+  - ╠cadastroPage.html
+  - ╠loginPage.html
+  - ╚index.html
 
 ## Partes Separadas do Codigo
 
