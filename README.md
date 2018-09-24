@@ -25,10 +25,10 @@ Algumas partes do codigo temos que separar para serem segradas por php ou javasc
 
 Algumas partes que se encontrarm no **header** e no **card** devem sumir e aparecer quando clicados.
 
-1. Essa parte se encontra no **<main></main>**:
+1. Essa parte se encontra no **main**:
 
 ![Parte 1 do codigo para esconder e mostrar](Imagens/exemplo_github1.png)
 
-2. Essa parte se encontra no **<main></main>**:
+2. Essa parte se encontra no **main** e dentro do **card**:
 
 ![Parte 2 do codigo para esconder e mostrar](Imagens/exemplo_github2.png)
