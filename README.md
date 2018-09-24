@@ -17,7 +17,7 @@ Até o momento está com todas as partes de Front-end prontas, faltando apenas o
 
 ## Partes Separadas do Código.
 
-Algumas partes do codigo temos que separar para serem segradas por php ou javascript.
+Algumas partes do codigo temos que separar para serem segradas por php ou javascript (**index.js > main**).
 
 ![Codigo à separar](Imagens/exemplo_github.png)
 
