@@ -9,38 +9,52 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div id="TelaMarketing">
-        <img src="Imagens/nome_site.png" alt="" id="NomeSite">
-        <h2 id="SloganSite">Compartilhe seus momentos com seus amigos</h2>
-        <button id="BtnLoginMk">
-            <img id="ImgBtnLogin" src="Imagens/btnLoginMarketing.png" alt="Imagem do botão de login">
+    <div class="TelaMarketing">
+
+        <img src="Imagens/nome_site.png" alt="" class="NomeSite">
+
+        <h2>Compartilhe seus momentos com seus amigos</h2>
+
+        <button class="BtnLoginMk">
+            <img src="Imagens/btnLoginMarketing.png" alt="Imagem do botão de login">
         </button>
+
     </div>
-    <div id="TeleCadastro">
-        <img id="logoSite" src="Imagens/logo_curso.png" alt="Logo do Site">
-        <h2 id="textoCadastro">Cadastro</h2>
-            <div id="CampoformCadastro">
-                <form id="FormCadastro">
-                    <div id="campoNome">
-                        <input class="campoImput" id="campoNomeImputCadastro" type="text" placeholder="     Nome...">
-                    </div>
 
-                    <div id="campoEmailTel">
-                        <input class="campoImput" id="campoEmailTelImputCadastro" type="text" placeholder="     E-mail ou Telefone">
-                    </div>
+    <div class="TeleCadastro">
+      <div class="logoSite">
+        <img src="Imagens/logo_curso.png" alt="Logo do Site">
+      </div>
 
-                    <div id="campoSenha">
-                        <input class="campoImput" id="campoSenhaImputCadastro" type="password" placeholder="     Senha...">
-                    </div>
+        <div class="CampoformCadastro">
+            <form>
+              <legend>Cadastro</legend>
 
-                    <div id="campoRepeteSenha">
-                        <input class="campoImput" id="campoRepeteSenhaImputCadastro" type="password" placeholder="     Repita a Senha...">
-                    </div>
+                <div class="campoImput">
+                    <input type="text" placeholder="     Nome...">
+                </div>
 
-                    <button type="submit" id="BtnCadastro">Cadastrar</button>
-                </form>
-            </div>
+                <div class="campoImput">
+                    <input type="text" placeholder="     E-mail ou Telefone">
+                </div>
+
+                <div class="campoImput">
+                    <input type="password" placeholder="     Senha...">
+                </div>
+
+                <div class="campoImput">
+                    <input type="password" placeholder="     Repita a Senha...">
+                </div>
+
+                <div class="BtnAddImg">
+                  <input type="file" id="BtnAddImg">
+                  <label for="BtnAddImg">Adicionar Imagem</label>
+                </div>
+
+                <input type="submit" class="BtnCadastro" value="Cadastrar">
+            </form>
+        </div>
     </div>
-    <img id="CorpoTelaMarketing" src="Imagens/corpo_tela_cadastro.jpg" alt="Imagem da tela da cadastro">
+    <img class="CorpoTelaMarketing" src="Imagens/corpo_tela_cadastro.jpg" alt="Imagem da tela da cadastro">
 </body>
 </html>

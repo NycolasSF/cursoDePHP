@@ -12,31 +12,46 @@
 
 <body>
     <header>
-        <img src="./Imagens/logo_curso.png" alt="Logo do Site" id="logoSite">
-        <div id="secaoUsuario">
-            <a href="" class="imgUsuario">
-                <img src="./Imagens/icon_padrao.svg" alt="" class="iconUsuarioHeader">
-            </a>
-            <a href="" id="setaMenu">
-                <img src="./Imagens/seta_icon.png" alt="Icone de Seta do Menu" id="iconSeta">
-            </a>
+
+      <div class="logoSite">
+        <img src="./Imagens/logo_curso.png" alt="Logo do Site">
+      </div>
+
+        <div class="secaoUsuario">
+
+          <div class="iconUsuarioHeader">
+            <img src="./Imagens/icon_padrao.svg" alt="Logo do Usuários" >
+          </div>
+
+          <div class="iconSeta">
+              <img src="./Imagens/seta_icon.png" alt="Icone de Seta do Menu">
+          </div>
+
         </div>
+
     </header>
+
     <section class="MenuLateral">
-        <h2 id="textoConfissao">Confissão:</h2>
-        <div id="CampoformConfissao">
-            <form id="FormConfissao">
-                <div id="campoConfissao">
-                    <textarea style="resize: vertical" class="campoImput" id="campoConfissaoImput" type="text"
-                        placeholder="   O que vai confessar hoje?"></textarea>
+
+        <h2 class="textoConfissao">Confissão:</h2>
+
+        <div class="CampoformConfissao">
+            <form>
+                <div class="campoImput">
+                    <textarea type="text" placeholder="   O que vai confessar hoje?"></textarea>
                 </div>
-                <button type="submit" id="BtnConfissao">Confessar</button>
-                <input type="file" id="BtnAddImg">
-                <label id="labelBtnAddImg" for="BtnAddImg">Adicionar Imagem</label>
+
+                <input type="submit" class="BtnConfissao" value="Confessar">
+
+                <div class="BtnAddImg">
+                  <input type="file" id="BtnAddImg">
+                  <label for="BtnAddImg">Adicionar Imagem</label>
+                </div>
             </form>
         </div>
     </section>
-    <main id="ConteudoConfissoes">
+
+    <main class="ConteudoConfissoes">
 
         <div class="menuUsuario">
             <a href="" class="btnPerfil">
@@ -53,208 +68,50 @@
             <img class="CorpoMenuUsuario" src="./Imagens/menu_usuario.svg" alt="">
         </div>
 
-        <h1 id="tituloConfissao">Confissões</h1>
-        <div id="linhaTitulo"></div>
 
-        <div id="linhaTempoConfissoes">
+        <h1>Confissões</h1>
+        <div class="linhaTitulo"></div>
+
+        <div class="linhaTempoConfissoes">
 
             <div class="cardConfissao">
+
                 <div class="infoUser">
-                    <a href="" class="avatarUsuario">
-                        <img src="Imagens/icon_padrao.svg" alt="" class="iconUsuario">
-                    </a>
-                    <a href="" class="nomeUsuario">
-                        <h3 class="textNomeUsuario">Nome do Usuario</h3>
-                    </a>
-                    <a href="" class="arrobaUsuario">
-                        <p class="textArrobaUsuario">@usuario</p>
-                    </a>
-                    <a href="" class="setaMenuCard">
-                        <img src="./Imagens/seta_card_icon.png" alt="" class="iconSetaCard">
-                    </a>
-                    
+
+                  <div class="iconUsuario">
+                    <img src="Imagens/icon_padrao.svg" alt="Logo do Usuário no Card">
+                  </div>
+                  <h3 class="textNomeUsuario">Nome do Usuario</h3>
+                  <p class="textArrobaUsuario">@usuario</p>
+
+                  <div class="setaMenuCard">
+                    <img src="./Imagens/seta_card_icon.png" alt="Seta para o menu do card">
+                  </div>
+
                     <div class="menuCard">
                         <a href="" class="btnEditar">
                             <p class="textEditar">Editar</p>
                         </a>
+
                         <div class="divisorSelecao"></div>
+
                         <a href="" class="btnApagar">
                             <p class="textApagar">Apagar</p>
                         </a>
+
                         <img class="CorpoMenuCard" src="./Imagens/menu_card.svg" alt="">
                     </div>
                 </div>
+
                 <div class="conteudoConfissao">
                     <p class="textConfissao">Hoje acordei com uma vontade imensa de comer nutella, fui correndo pra
                         cozinha e não tinha :(</p>
-                    <img src="" alt="" class="imgConfissao">
+                    <div class="imgConfissao">
+                      <img src="">
+                    </div>
                 </div>
+
             </div>
-
-            <div class="cardConfissao">
-                    <div class="infoUser">
-                        <a href="" class="avatarUsuario">
-                            <img src="Imagens/icon_padrao.svg" alt="" class="iconUsuario">
-                        </a>
-                        <a href="" class="nomeUsuario">
-                            <h3 class="textNomeUsuario">Nome do Usuario</h3>
-                        </a>
-                        <a href="" class="arrobaUsuario">
-                            <p class="textArrobaUsuario">@usuario</p>
-                        </a>
-                        <a href="" class="setaMenuCard">
-                            <img src="./Imagens/seta_card_icon.png" alt="" class="iconSetaCard">
-                        </a>
-                        
-                        <div class="menuCard">
-                            <a href="" class="btnEditar">
-                                <p class="textEditar">Editar</p>
-                            </a>
-                            <div class="divisorSelecao"></div>
-                            <a href="" class="btnApagar">
-                                <p class="textApagar">Apagar</p>
-                            </a>
-                            <img class="CorpoMenuCard" src="./Imagens/menu_card.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="conteudoConfissao">
-                        <p class="textConfissao">Hoje acordei com uma vontade imensa de comer nutella, fui correndo pra
-                            cozinha e não tinha :(</p>
-                        <img src="" alt="" class="imgConfissao">
-                    </div>
-                </div>
-
-                <div class="cardConfissao">
-                        <div class="infoUser">
-                            <a href="" class="avatarUsuario">
-                                <img src="Imagens/icon_padrao.svg" alt="" class="iconUsuario">
-                            </a>
-                            <a href="" class="nomeUsuario">
-                                <h3 class="textNomeUsuario">Nome do Usuario</h3>
-                            </a>
-                            <a href="" class="arrobaUsuario">
-                                <p class="textArrobaUsuario">@usuario</p>
-                            </a>
-                            <a href="" class="setaMenuCard">
-                                <img src="./Imagens/seta_card_icon.png" alt="" class="iconSetaCard">
-                            </a>
-                            
-                            <div class="menuCard">
-                                <a href="" class="btnEditar">
-                                    <p class="textEditar">Editar</p>
-                                </a>
-                                <div class="divisorSelecao"></div>
-                                <a href="" class="btnApagar">
-                                    <p class="textApagar">Apagar</p>
-                                </a>
-                                <img class="CorpoMenuCard" src="./Imagens/menu_card.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="conteudoConfissao">
-                            <p class="textConfissao">Hoje acordei com uma vontade imensa de comer nutella, fui correndo pra
-                                cozinha e não tinha :(</p>
-                            <img src="" alt="" class="imgConfissao">
-                        </div>
-                    </div>
-
-                    <div class="cardConfissao">
-                            <div class="infoUser">
-                                <a href="" class="avatarUsuario">
-                                    <img src="Imagens/icon_padrao.svg" alt="" class="iconUsuario">
-                                </a>
-                                <a href="" class="nomeUsuario">
-                                    <h3 class="textNomeUsuario">Nome do Usuario</h3>
-                                </a>
-                                <a href="" class="arrobaUsuario">
-                                    <p class="textArrobaUsuario">@usuario</p>
-                                </a>
-                                <a href="" class="setaMenuCard">
-                                    <img src="./Imagens/seta_card_icon.png" alt="" class="iconSetaCard">
-                                </a>
-                                
-                                <div class="menuCard">
-                                    <a href="" class="btnEditar">
-                                        <p class="textEditar">Editar</p>
-                                    </a>
-                                    <div class="divisorSelecao"></div>
-                                    <a href="" class="btnApagar">
-                                        <p class="textApagar">Apagar</p>
-                                    </a>
-                                    <img class="CorpoMenuCard" src="./Imagens/menu_card.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="conteudoConfissao">
-                                <p class="textConfissao">Hoje acordei com uma vontade imensa de comer nutella, fui correndo pra
-                                    cozinha e não tinha :(</p>
-                                <img src="" alt="" class="imgConfissao">
-                            </div>
-                        </div>
-
-                        <div class="cardConfissao">
-                                <div class="infoUser">
-                                    <a href="" class="avatarUsuario">
-                                        <img src="Imagens/icon_padrao.svg" alt="" class="iconUsuario">
-                                    </a>
-                                    <a href="" class="nomeUsuario">
-                                        <h3 class="textNomeUsuario">Nome do Usuario</h3>
-                                    </a>
-                                    <a href="" class="arrobaUsuario">
-                                        <p class="textArrobaUsuario">@usuario</p>
-                                    </a>
-                                    <a href="" class="setaMenuCard">
-                                        <img src="./Imagens/seta_card_icon.png" alt="" class="iconSetaCard">
-                                    </a>
-                                    
-                                    <div class="menuCard">
-                                        <a href="" class="btnEditar">
-                                            <p class="textEditar">Editar</p>
-                                        </a>
-                                        <div class="divisorSelecao"></div>
-                                        <a href="" class="btnApagar">
-                                            <p class="textApagar">Apagar</p>
-                                        </a>
-                                        <img class="CorpoMenuCard" src="./Imagens/menu_card.svg" alt="">
-                                    </div>
-                                </div>
-                                <div class="conteudoConfissao">
-                                    <p class="textConfissao">Hoje acordei com uma vontade imensa de comer nutella, fui correndo pra
-                                        cozinha e não tinha :(</p>
-                                    <img src="" alt="" class="imgConfissao">
-                                </div>
-                            </div>
-
-                            <div class="cardConfissao">
-                                    <div class="infoUser">
-                                        <a href="" class="avatarUsuario">
-                                            <img src="Imagens/icon_padrao.svg" alt="" class="iconUsuario">
-                                        </a>
-                                        <a href="" class="nomeUsuario">
-                                            <h3 class="textNomeUsuario">Nome do Usuario</h3>
-                                        </a>
-                                        <a href="" class="arrobaUsuario">
-                                            <p class="textArrobaUsuario">@usuario</p>
-                                        </a>
-                                        <a href="" class="setaMenuCard">
-                                            <img src="./Imagens/seta_card_icon.png" alt="" class="iconSetaCard">
-                                        </a>
-                                        
-                                        <div class="menuCard">
-                                            <a href="" class="btnEditar">
-                                                <p class="textEditar">Editar</p>
-                                            </a>
-                                            <div class="divisorSelecao"></div>
-                                            <a href="" class="btnApagar">
-                                                <p class="textApagar">Apagar</p>
-                                            </a>
-                                            <img class="CorpoMenuCard" src="./Imagens/menu_card.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="conteudoConfissao">
-                                        <p class="textConfissao">Hoje acordei com uma vontade imensa de comer nutella, fui correndo pra
-                                            cozinha e não tinha :(</p>
-                                        <img src="" alt="" class="imgConfissao">
-                                    </div>
-                                </div>
 
         </div>
     </main>

@@ -9,32 +9,32 @@ header{
     width: 100%;
     height: 10%;
     background-color: #093f64;
-    box-shadow: 0px 3px 5.7px 0.3px rgba(0, 0, 0, 0.15);  
+    box-shadow: 0px 3px 5.7px 0.3px rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
 }
 
-#secaoUsuario{
+.secaoUsuario{
     margin-right: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#logoSite {
+.logoSite img{
     width: 10%;
     height: 10%;
     margin-left: 20px;
 }
 
 
-.iconUsuarioHeader{
+.iconUsuarioHeader img{
     width: 50px;
     height: 50px;
     margin-top: 5px;
 }
 
-#iconSeta{
+.iconSeta img{
     margin-left: 12px;
 }
 
@@ -49,7 +49,7 @@ header{
     left: 0%;
 }
 
-#textoConfissao{
+.textoConfissao{
     margin-top: 29px;
     margin-bottom: 10px;
     font-size: 24px;
@@ -57,12 +57,12 @@ header{
     color: #ffffff;
 }
 
-#CampoformConfissao{
+.CampoformConfissao{
     width: 100%;
     height: 100%;
 }
 
-.campoImput{
+.campoImput textarea{
     display: flex;
     outline: none;
     width: 84%;
@@ -72,6 +72,10 @@ header{
     border: none;
     font-size: 20px;
     margin-bottom: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    resize: none;
 }
 
 .campoImput::-webkit-input-placeholder{
@@ -91,7 +95,7 @@ header{
     color: #dbdbdb;
 }
 
-#BtnConfissao{
+.BtnConfissao{
     display: flex;
     width: 84%;
     height: 46px;
@@ -106,11 +110,11 @@ header{
     margin-bottom: 20px;
 }
 
-#BtnConfissao:hover{
+.BtnConfissao:hover{
     background-color: rgb(32, 32, 32);
 }
 
-#BtnAddImg{
+.BtnAddImg input{
     width: 0.1px;
     height: 0.1px;
     opacity: 0;
@@ -119,7 +123,7 @@ header{
     z-index: -1;
 }
 
-#labelBtnAddImg{
+.BtnAddImg label{
     display: flex;
     width: 84%;
     height: 46px;
@@ -134,11 +138,11 @@ header{
     outline: none;
 }
 
-#labelBtnAddImg:hover{
+.BtnAddImg label:hover{
     background-color: rgb(32, 32, 32);
 }
 
-#ConteudoConfissoes{
+.ConteudoConfissoes{
     background-color: #ececec;
     width: 79%;
     height: 91.4%;
@@ -150,7 +154,7 @@ header{
     overflow: scroll;
 }
 
-#tituloConfissao{
+h1{
     font-size: 36px;
     font-weight: bold;
     font-style: normal;
@@ -159,7 +163,7 @@ header{
     margin-top: 18px;
 }
 
-#linhaTitulo{
+.linhaTitulo{
     width: 90%;
     height: 2px;
     background-color: #cacaca;
@@ -168,7 +172,7 @@ header{
 
 /* //// Menu de opçoes do Usuario ////*/
 .menuUsuario{
-    position: absolute; 
+    position: absolute;
     right: 36px;
     top: 15px;
     display: flex;
@@ -256,18 +260,14 @@ header{
     margin-bottom: 15px;
 }
 
-a{
-    text-decoration: none;
-}
-
 .infoUser{
     width: 763px;
     height: 80px;
 }
 
-.iconUsuario{
-    width: 70px;
-    height: 70px;
+.iconUsuario img{
+    max-width: 70px;
+    max-height: 70px;
     position: relative;
     bottom: -10px;
     left: 10px;
@@ -298,7 +298,7 @@ a{
 }
 
 .textConfissao{
-    margin-top: 10px;   
+    margin-top: 10px;
     width: 594px;
     height: 20%;
     font-size: 30px;
@@ -310,9 +310,9 @@ a{
 
 /* ///////// Menu de opçoes do Card /////////*/
 .menuCard{
-    position: absolute; 
-    right: 117px;
-    top: 125px;
+    position: relative;
+    left: 381px;
+    top: -51px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,4 +359,3 @@ a{
     height: 90px;
 }
 /* //////////////////////////////////////////*/
-

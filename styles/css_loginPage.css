@@ -6,10 +6,11 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 #imgDeFundo{
     width: 100%;
@@ -22,18 +23,20 @@ body{
     height: 554px;
     border-radius: 10px;
     background-color: rgb(40, 112, 169, 0.5);
-    position: absolute;
+    position: fixed;
+    top: 12%;
+    bottom: 12%;
     display: flex;
     flex-direction: column;
 }
 
-#logoSite{
+.logoSite img{
     margin-top: 26px;
     width: 405px;
     height: 160px;
 }
 
-#textoLogin{
+legend{
     margin-top: 29px;
     margin-bottom: 42px;
     font-size: 36px;
@@ -47,7 +50,7 @@ body{
     height: 100%;
 }
 
-.campoImput{
+.campoImput input{
     display: flex;
     outline: none;
     width: 74%;
@@ -57,6 +60,8 @@ body{
     border: none;
     font-size: 20px;
     margin-bottom: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .campoImput::-webkit-input-placeholder{
@@ -74,7 +79,7 @@ body{
     color: #dbdbdb;
 }
 
-#BtnLogin{
+.BtnLogin{
     display: flex;
     width: 50%;
     height: 46px;
@@ -88,6 +93,6 @@ body{
     outline: none;
 }
 
-#BtnLogin:hover{
+.BtnLogin:hover{
     background-color: rgb(32, 32, 32);
 }
